@@ -10,7 +10,7 @@ tmux bind & kill-window
 tmux bind x kill-pane
 tmux bind C-k confirm-before -p "kill-session #S? (y/n)" kill-session
 tmux bind C-n new-session
-tmux bind | split-window -h
+tmux bind "|" split-window -h
 tmux bind - split-window -v
 tmux bind r source-file ~/.tmux.conf \; display "Configuration reloaded"
 tmux setw -g mode-keys vi
