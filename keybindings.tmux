@@ -1,7 +1,7 @@
-tmux bind -r H resize-pane -L 5
-tmux bind -r J resize-pane -D 5
-tmux bind -r K resize-pane -U 5
-tmux bind -r L resize-pane -R 5
+tmux bind -r M-h resize-pane -L 5
+tmux bind -r M-j resize-pane -D 5
+tmux bind -r M-k resize-pane -U 5
+tmux bind -r M-l resize-pane -R 5
 tmux bind h select-pane -L
 tmux bind j select-pane -D
 tmux bind k select-pane -U
